@@ -25,7 +25,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.2.6"
+    "@actions/core": "^1.2.6",
+    "@axe-core/puppeteer": "^4.1.1",
+    "puppeteer": "^9.0.0"
   },
   "devDependencies": {
     "@types/jest": "^26.0.15",
