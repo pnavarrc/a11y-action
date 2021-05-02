@@ -1,11 +1,12 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'Accessibility Action'
+description: 'Accessibility reports'
+author: 'Pablo Navarro Castillo <pnavarrc@gmail.com>'
 inputs:
-  milliseconds: # change this
+  # URL to test
+  url: 
     required: true
-    description: 'input description here'
-    default: 'default value if applicable'
+    description: 'URL to test'
+    default: 'https://www.covidactnow.org'
 runs:
   using: 'node12'
   main: 'dist/index.js'
